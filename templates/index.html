@@ -3,8 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
-
+<form action="/verify-login" method="POST">
+    <h1>Welcome</h1>
+    <label for="username">Username</label>
+    <input type="text">
+    <label for="password">Password</label>
+    <input type="text">
+    <a href="/register">No account?</a>
+    <input type="submit" value="Login">
+</form>
 </body>
 </html>
